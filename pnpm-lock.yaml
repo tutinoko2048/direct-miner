@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@minecraft/vanilla-data':
-        specifier: ^1.21.131
-        version: 1.21.131
     devDependencies:
       '@bedrock-apis/env-types':
         specifier: 1.0.0-beta.5
