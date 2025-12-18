@@ -1,22 +1,9 @@
-# scriptapi-template
+# direct-miner
 
-ScriptAPIアドオンのテンプレートです。
+破壊したブロックを直接インベントリに送信するためのアドオンです
 
-## Features
-- TypeScript
-- バンドル (tsdown)
-- リリース時にGitHub Actionsを使ってmcpackを自動生成
+## 設定
+ゲーム内設定からビヘイビアーパックを開き、このアドオンを選択すると設定画面に飛べるボタンが出ます
 
-## 環境構築
-- パッケージマネージャーには [pnpm](https://pnpm.io/) を使います。
-- `pnpm i`
-- `pnpm build` でビルド
-
-## Scripts
-- `pnpm run build`
-- `pnpm run watch`
-
-## その他
-
-- mcpackに含まれるファイルは、`package.json`の`files`フィールドで定義されています。
-- ScriptAPI環境用の型定義として [`@bedrock-apis/env-types`](https://github.com/bedrock-apis/env-types) を使用しています。
+- 手動設定した対象範囲を使う(toggle): インベントリに送信するアイテムの対象範囲を手動で設定します
+- 対象範囲(slider): ブロックの中心からの半径を設定します
