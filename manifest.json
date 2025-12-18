@@ -1,10 +1,10 @@
 {
   "format_version": 3,
   "header": {
-    "name": "direct-miner v0.1.0",
+    "name": "direct-miner v0.1.1",
     "description": "破壊したブロックを直接インベントリに送信します",
     "uuid": "7e983c96-81be-47c0-b84f-e46f28f57db8",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "min_engine_version": "1.21.130"
   },
   "modules": [
